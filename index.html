@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Part 6 Ex 2</title>
+    </head>
+
+    <body>
+        <script>
+            for (let i = 0; i <= 100; i++) {
+                if (i % 15 == 0) {
+                    var p = document.createElement("p");
+                    p.innerHTML = "...";
+                    document.body.appendChild(p);
+                } else {
+                    var p = document.createElement("P");
+                    p.innerHTML = i;
+                    document.body.appendChild(p);
+                }
+            }
+        </script>
+    </body>
+
+</html>
